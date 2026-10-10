@@ -42,8 +42,9 @@ int main() {
     cout << "-------------------------------------------------------------" << endl;
     delete livro;
     livro = nullptr;
-    /*como solicitado na questão, excluímos o objeto e colocamos o livro como nullptr.
-    
+    /*OBS: COMO SOLICITADO NA QUESTÃO E ESPECIFICADO NO MEU README, SEGUE EXPLICAÇÃO SOLICITADA NESSA 3ª QUESTÃO
+    DO POR QUE O USO DE DELETE[] SERIA INADEQUADO NESSE CASO: 
+    excluí o objeto e colocamos o livro como nullptr.
     Não se foi utilizado o delete[] pois apenas utilizamos o new para alocar apenas UM objeto.
     Por isso, utilizei o delete sem colchetes.*/
     return 0;
